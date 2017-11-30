@@ -1,1 +1,18 @@
+body {
+  background-image: url("https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif");
+}
 
+#rock{
+    height:300px;
+    width:266px;
+}
+
+#binder {
+    height:300px;
+    width:266px;
+}
+
+#edward {
+    height:300px;
+    width:266px;
+}

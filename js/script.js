@@ -1,30 +1,50 @@
-//Class 1:
-        // Fork and clone the repo and set up your project workspace and link files
-        // Write HTML for your project
-//Class 2:  
-        // Declare four global variables for intial state of the list of choices, the computer choice, the user choice, and the winner.  
-        // Practice using console.log() and debugger to debug your code
-        // Create your document ready function. 
-        // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input field, 
-        // Display the user choice to the output screen
-//Class 3:  
-        // Randomly choose among 'rock', 'paper', or 'scissors' from the list of choices 
-        // Display the computer choice to the output screen
-        // Compare the user choice and the computer choice to determine who won. 
-        // Display the user winner to the output screen 
-        // Clear the input box for the next choice
+var Users = prompt(Rock, Paper or Scissors¨)
 
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+if (users === "Rock"){
+        console.log("Rock")
+        var PC = ("Rock")
+} else if (Users === "Paper"){
+        console.log("Paper")
+        var PC = ("Paper")
+} else if (Users === "Scissors"){
+        console.log("Scissors"){
+        var PC = ("Scissors")
+} else{
+        console.log("error")
+};
 
-//GLOBAL VARIABLES
+var x = (Math.random()*4 | 0);
+
+if (x === 1){
+        console.log("Rock")
+        var CC = ("Rock")
+} else if (x === 2){
+        console.log("Paper")
+        var CC = ("Paper")
+} else if (x === 3){
+        console.log("Paper")
+        var CC = ("Scissors")
+} else {
+        console.log("error")
+};
 
 
+$("#press").click(function();{
+        var name = $("#press").val();
+        $("#result").append(name);
+});
 
-//FUNCTIONS
+$("#rock").hover(function();
+        $("#the rock").hide();
+        $("").show();
+});
 
+$("#binder").hover(function();
+        $("#binder").hide();
+        $("").show();
+});
 
-
-// DOCUMENT READY FUNCTION
-
+$("#edward").hover(function();
+        $("#edward").hide();
+        $("").show();
+});
